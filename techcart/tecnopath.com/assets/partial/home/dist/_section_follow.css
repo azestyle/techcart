@@ -1,0 +1,136 @@
+.follow-gr {
+  background-color: #0099CC;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 4fr 1.5fr 4fr;
+  margin-top: 20px;
+}
+.follow-gr .follow-find {
+  width: 100%;
+}
+.follow-gr .follow-find .find-div {
+  width: 83.33%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 45px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.follow-gr .follow-find .find-div .s8tittle {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 45px;
+  text-align: center;
+}
+.follow-gr .follow-find .find-div .s8write {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  width: fit-content;
+  font-size: 18px;
+  padding: 0 5px;
+  color: white;
+}
+.follow-gr .follow-find .find-div .s8logo {
+  font-size: 36px;
+  text-align: center;
+}
+.follow-gr .follow-find .find-div .s8logo span {
+  cursor: pointer;
+}
+.follow-gr .follow-pictures {
+  position: relative;
+}
+.follow-gr .follow-pictures .absolutes {
+  position: absolute;
+  top: -6%;
+}
+.follow-gr .follow-pictures .absolutes img {
+  width: 100%;
+}
+.follow-gr .follow-sign {
+  width: 100%;
+}
+.follow-gr .follow-sign .sign-div {
+  width: 83.33%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.follow-gr .follow-sign .sign-div .signtittle {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 45px;
+  text-align: center;
+}
+.follow-gr .follow-sign .sign-div .s8-clicked {
+  width: 83.33%;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+}
+.follow-gr .follow-sign .sign-div .s8-clicked input {
+  padding: 20px 0;
+}
+.follow-gr .follow-sign .sign-div .s8-clicked input:focus {
+  outline: none;
+}
+.follow-gr .follow-sign .sign-div .s8-clicked button {
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 20px 0;
+  border: 0;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.hours24 {
+  width: 100%;
+  background-color: #41BBEB;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+.hours24 .fullyday {
+  width: 91.66%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.hours24 .fullyday .s8work1 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.hours24 .fullyday .s8work1 h1 {
+  font-size: 36px;
+}
+.hours24 .fullyday .s8work1 p {
+  font-size: 13px;
+}
+.hours24 .fullyday .s8work2 {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+.hours24 .fullyday .s8work2 .s8logos svg {
+  width: 54px;
+  height: 54px;
+  stroke: white;
+}
+.hours24 .fullyday .s8work2 .s8logos svg path {
+  fill: white;
+}
+.hours24 .fullyday .s8work2 .s8logos svg circle {
+  fill: white;
+}
+.hours24 .fullyday .s8work2 .s8spangr {
+  display: flex;
+  flex-direction: column;
+}

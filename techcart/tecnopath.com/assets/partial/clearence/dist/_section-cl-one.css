@@ -1,0 +1,49 @@
+.clearence-gr {
+  width: 100%;
+  margin-top: 20px;
+}
+.clearence-gr .clearence-box {
+  width: 91.66%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-family: "Questrial", sans-serif;
+}
+.clearence-gr .clearence-box .cl-left .cl-left-box {
+  display: flex;
+  font-size: 18px;
+  gap: 10px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.374);
+}
+.clearence-gr .clearence-box .cl-left .cl-left-box .cl-left-writes {
+  cursor: pointer;
+}
+.clearence-gr .clearence-box .cl-left .cl-left-box .cl-left-writes:hover {
+  color: black;
+}
+.clearence-gr .clearence-box .cl-left .cl-left-box .cl-left-writen {
+  color: black;
+}
+
+.cl-right .cl-right-box {
+  float: right;
+  display: flex;
+  gap: 10px;
+}
+.cl-right .cl-right-box .cl-show {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+.cl-right .cl-right-box .cl-select {
+  border: none;
+  padding: 10px 5px;
+  font-size: 16px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+.cl-right .cl-right-box .cl-select:focus {
+  outline: none;
+}

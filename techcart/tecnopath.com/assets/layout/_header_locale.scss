@@ -1,0 +1,158 @@
+.perconal-list{
+    position: relative;
+    .cart-modal{
+        position: fixed;
+        display: none;
+        left: 0;
+        top: 0;
+        z-index: 10;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background-color: rgba(0,0,0,0.4);
+        top: 0;
+        right: 0;
+
+        .modalbox{
+            
+            background-color: #fefefe;
+            position: absolute;
+            right: 0; 
+            top: 0; 
+            height: 100%; 
+            width: 330px; 
+            padding: 20px;
+            border: 1px solid #888;
+           
+          
+            .spandiv{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+               
+                .closed{
+                    color: black;
+                    font-size: 36px;
+                    cursor: pointer;
+                   display: flex;
+                   justify-content: flex-end;
+                   align-items: center;
+                    
+                    
+                }
+                .modaltxt{
+                    font-size: 24px;
+                    color: black;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                }
+            }
+            .wiewandcheck{
+                display: flex;
+                flex-direction: column;
+                gap: 10PX;
+                margin-top: 10PX;
+                font-family: "Questrial", sans-serif;
+                font-size: 24px;
+                .h-wiew{
+                    padding: 15px 0;
+                    font-weight: 600;
+                    font-size: 16px;
+                    cursor: pointer;
+                    background-color: #0099cc;
+                    color: white;
+                    border: none;
+                    transition: 0.5s;
+                    &:hover{
+                        background-color: #0a80a8;
+                    }
+                }
+                .h-checkout{
+                    padding: 15px 0;
+                    font-weight: 600;
+                    font-size: 16px;
+                    cursor: pointer;
+                    border: none;
+                    color: white;
+                    background-color: black;
+                }
+            }
+        }
+    }
+}
+
+
+    body.modal-open{
+        overflow: hidden;
+    }
+
+    .s1-listen{
+        
+        
+        .s1-l-gr{
+            margin-top: 20px;
+    display: flex;
+       .s1img{
+        width: 58.33%;
+            img{
+                width: 100%;
+            }
+        }
+          .s1tittle{
+            color: rgba(0, 0, 0, 0.437);
+            text-align: center;
+            width: 75%;
+            font-size: 16px;
+            padding-top: 10px;
+        }
+      .dltbtn{
+            width: fit-content;
+            height: fit-content;
+            background: transparent;
+            border-radius: 50%;
+            padding: 3px 7px;
+            color: rgba(0, 0, 0, 0.433);
+            border-color: rgba(0, 0, 0, 0.444);
+            cursor: pointer;
+            &:hover{
+                border-color: black;
+                color: black;
+            }
+        }
+        }
+       
+      
+        .s1price{
+            text-align: center;
+            color: black;
+            margin-top: 20px;
+        }
+        
+        
+    }
+    .bucket-list{
+        overflow-y: auto;
+        max-height: 70%;
+    }
+
+    .subtotal{
+        color: black;
+        text-align: center;
+        background-color: #bdbcbc4d;
+        padding: 20px 0;
+        font-size: 18px;
+    }
+
+    .bucket{
+        position: relative;
+
+        .totalvals{
+            position: absolute;
+            left: 65%;
+            top: 1%;
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            border-radius: 50%;
+            padding: 2px 3px;
+        }
+    }

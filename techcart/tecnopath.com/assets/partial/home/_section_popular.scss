@@ -1,0 +1,72 @@
+.popular-categories{
+    width: 100%;
+    h1{
+        width: 100%;
+        font-size: 54px;
+        font-weight: 900;
+        font-family: "Roboto", sans-serif;
+        word-spacing: 10px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .popular-product{
+         width: 91.66%;
+         margin: 0 auto;
+         display: grid;
+         grid-template-columns: repeat(3,1fr);
+         gap: 20px;
+         font-family: "Roboto", sans-serif;
+        .popular-box-s5{
+         
+
+            .s5-img-box{
+                width: 100%;
+                line-height: 0;
+                overflow: hidden;
+                
+             img{
+                width: 100%;
+              transition: scale 0.7s;
+              cursor: pointer;
+             }
+             &:hover{
+                 
+                img{
+                    scale: 1.2;
+                }
+             }
+            }
+            .s5-write-box{
+                width: 100%;
+                display: flex;
+                padding: 20px 0px;
+                flex-direction: column;
+                background-color: black;
+              .s5-btn{
+                width: fit-content;
+                align-self: center;
+                 background: transparent;
+                 color: #0099cc;
+                 font-size: 16px;
+                 padding: 5px 10px;
+                 border: 2px solid #0099cc;
+                 margin-bottom: 20px;
+                 transition: 0.5s;
+                 cursor: pointer;
+                 &:hover{
+                    background-color: #0099cc;
+                    color: white;
+                 }
+              }
+              .s5-tittle{
+               font-size: 13px;
+               color: white;
+               text-align: center;
+               
+              }
+            }
+        }
+    }
+}

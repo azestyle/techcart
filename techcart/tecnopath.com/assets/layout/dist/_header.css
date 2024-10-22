@@ -1,0 +1,165 @@
+.container .row .header-top {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
+  background-color: #0099cc;
+  padding: 20px 0;
+}
+.container .row .header-top .header-logo {
+  width: 100%;
+  margin-left: 50px;
+}
+.container .row .header-top .header-logo .logo-box {
+  width: 100%;
+}
+.container .row .header-top .header-logo .logo-box .logo-img {
+  width: 58.33%;
+}
+
+.header-src .search-form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.header-src .search-form .src-input {
+  width: 83.33%;
+  padding: 15px 10px 15px 30px;
+  border: 0;
+  border-radius: 5px;
+}
+.header-src .search-form .src-input::placeholder {
+  font-style: italic;
+  font-size: 14px;
+}
+.header-src .search-form .src-input:focus {
+  border: none;
+  outline: none;
+}
+.header-src .search-form .search-svg {
+  position: absolute;
+  left: 10%;
+}
+
+.perconal-list {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: white;
+  font-size: 13px;
+  font-family: "Questrial", sans-serif;
+  font-weight: 700;
+}
+.perconal-list .perconal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+.perconal-list .list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+.perconal-list .bucket {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.header-bottom {
+  width: 100%;
+  background-color: white;
+  position: relative;
+}
+.header-bottom .electronics-list {
+  padding: 20px 0;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+.header-bottom .electronics-list .electro-ul {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  color: black;
+  font-family: "Questrial", sans-serif;
+  font-weight: 900;
+}
+.header-bottom .electronics-list .electro-ul li {
+  cursor: pointer;
+}
+.header-bottom .electronics-list .electro-ul li:hover {
+  color: #0099cc;
+}
+.header-bottom .electronics-list .electro-ul li:hover a {
+  color: #0099cc;
+}
+.header-bottom .electronics-list .electro-ul li:hover .icon .icon-path {
+  stroke: #0099cc;
+}
+.header-bottom .electronics-list .electro-ul li a {
+  color: black;
+}
+.header-bottom .electronics-list .electro-ul li .cl-bg-code {
+  color: #0099cc;
+}
+.header-bottom .electronics-list .electro-ul .clicker {
+  display: flex;
+  justify-content: center;
+}
+.header-bottom .product-lists {
+  position: absolute;
+  z-index: 3;
+  left: 14%;
+  background-color: #f1f1f1;
+  display: flex;
+  transform: translateY(5%);
+  visibility: hidden;
+  opacity: 1;
+  transition: 0.5s;
+}
+.header-bottom .product-lists .product-liste li {
+  display: flex;
+  gap: 10px;
+  padding: 5px 10px;
+  font-family: "Questrial", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+}
+.header-bottom .product-lists .product-liste li:hover {
+  color: #0099cc;
+  background-color: white;
+}
+.header-bottom .product-lists .product-liste li:hover Span {
+  position: relative;
+}
+.header-bottom .product-lists .product-liste li:hover Span::before {
+  position: absolute;
+  z-index: 1;
+  content: " ";
+  left: 0;
+  bottom: 5px;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  transition: top 0.5s;
+  z-index: 99;
+}
